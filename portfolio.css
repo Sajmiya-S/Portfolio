@@ -182,14 +182,6 @@ body h1{
     color: #6b7280; 
 }
 
-#footer .fa-instagram { 
-    color: #e1306c; 
-}
-
-#footer .fa-facebook { 
-    color: #1877f2;
-}
-
 #footer i {
     transition: all 0.3s ease;
 }
@@ -217,4 +209,5 @@ body h1{
 #aboutme,#skills,#contact{
     scroll-margin-top: 80px;
 }
+
 

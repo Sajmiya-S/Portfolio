@@ -229,15 +229,19 @@ body h1{
         font-size: 1rem;
     }
 }
-
-@media (max-width: 420px) {
+@media (max-width: 576px) {
     .about {
-        flex-direction: column;
-        text-align: center;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .left img {
+        max-width: 200px;
     }
 
     .right {
-        text-align: center;
+        font-size: 0.95rem;
+        text-align: left;
     }
 }
 

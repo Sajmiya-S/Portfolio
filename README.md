@@ -6,7 +6,7 @@ Designed with simplicity and clarity in mind for recruiters, interviewers, and f
 ---
 
 ## 🔗 Live Demo
-👉 [View Live Portfolio](https://your-live-link-here.com)
+👉 [View Live Portfolio](https://sajmiya-s.github.io/Portfolio/)
 
 ---
 

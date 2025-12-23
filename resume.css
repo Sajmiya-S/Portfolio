@@ -1,5 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
+
 .head{
-    height: 10%;
+    min-height: 120px;
+    height: auto;
     display:flex;
     align-items: center;
     gap: 10px;
@@ -32,15 +38,19 @@ h1{
 
 }
 .left{
-    width:30%;
-    min-height: 900px;
+    width:25%;
+    min-height: auto;
     padding: 50px;
     background-color: rgb(172, 188, 182);
     border-radius: 50px 50px 0 0 ;
 }
+
+.contact .fa-envelope { 
+    color: black;
+}
 .contact{
     font-size: medium;
-    line-height: 20px;
+    line-height: 1.6;
     
 }
 .contact .fa-linkedin-in {
@@ -49,6 +59,17 @@ h1{
 
 .contact .fa-github { 
     color: black;
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.contact a:hover{
+    color: #6366f1;
+    text-decoration: underline;
 }
 .loc{
     margin-left: -5px;
@@ -63,7 +84,15 @@ h1{
     background-color: grey;
 }
 .right{
-    width:70%;
-    min-height: 900px;
+    width:75%;
+    min-height: auto;
     padding: 50px;
+}
+.skills,
+.summary,
+.projects,
+.edu,
+.certifications,
+.workshops{
+  margin-bottom: 30px;
 }

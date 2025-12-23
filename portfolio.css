@@ -100,10 +100,10 @@ body h1{
 
 .about{
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
-    /* gap: 40px;
-    flex-wrap:wrap;
+    gap: 40px;
+    /* flex-wrap:wrap;
     padding: 40px; */
     
 }
@@ -210,40 +210,21 @@ body h1{
     scroll-margin-top: 80px;
 }
 
-
-@media (max-width: 992px) {
-    #aboutme {
-        margin-left: 20px;
-        margin-right: 20px;
-        transform: translateY(-70px);
-        padding: 25px;
-    }
-
-    .about {
-        gap: 30px;
-        padding: 30px;
-    }
-
-    .right {
-        text-align: left;
-        font-size: 1rem;
-    }
-}
 @media (max-width: 576px) {
-    .about {
-        gap: 20px;
-        padding: 20px;
+     .about {
+        flex-direction: column;
+        text-align: center;
     }
 
     .left img {
-        max-width: 200px;
+        max-width: 220px;
     }
 
     .right {
-        font-size: 0.95rem;
-        text-align: left;
+        text-align: center;
     }
 }
+
 
 
 

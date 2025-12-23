@@ -1,9 +1,14 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     margin:0;
     padding:0;
 }
 body{
     text-align: center;
+    font-family: 'Poppins', 'Inter', sans-serif;
 }
 
 body h1{
@@ -34,7 +39,6 @@ body h1{
     background-size: cover ;
     background-position: center;
     color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -58,12 +62,12 @@ body h1{
   z-index: 1;
 }
 
-.hero button{
+.hero .herobtn{
     background: linear-gradient(90deg,#ec4899,#22d3ee);
-    background-color: #ec4899;
     color: rgb(251, 244, 244);
-    height: 30px;
-    width: 100px;
+    padding: 8px 20px;
+    min-width: 120px;
+    height: auto;
     border-radius: 20px;
     text-align: center;
     border:1px solid black;
@@ -82,8 +86,7 @@ body h1{
     color:black;
 }
 
-#aboutme {
-    margin-top: -100px;   
+#aboutme {   
     position: relative;
     z-index: 10;          
     background-color: #f8fafc;
@@ -92,7 +95,7 @@ body h1{
     padding: 20px;
     margin-left: 50px;
     margin-right: 50px;
-  
+    transform: translateY(-100px);
 }
 
 .about{
@@ -162,6 +165,7 @@ body h1{
     letter-spacing: 10px;
     padding: 30px;
     background: #0f172a;
+    display: flex;
     justify-content: center;
     gap: 24px;
 }
@@ -196,25 +200,18 @@ body h1{
 }
 
 .line {
-  display: block;
-  width: 20%;
-  height: 4px;
-  margin: 10px auto;
-  background: linear-gradient(to right, #6366f1, #ec4899);
+     display: block;
+    width: 20%;
+    height: 4px;
+    margin: 10px auto;
+    background: linear-gradient(to right, #6366f1, #ec4899);
 }
 
 .section-divider {
-  width: 70%;
-  height: 1px;
-  margin: 60px auto;
-
-  background: linear-gradient(
-    to right,
-    transparent,
-    #6366f1,
-    #ec4899,
-    transparent
-  );
+    width: 70%;
+    height: 1px;
+    margin: 60px auto;
+    background: linear-gradient(to right,transparent,#6366f1,#ec4899,transparent);
 }
 
 #aboutme,#skills,#contact{

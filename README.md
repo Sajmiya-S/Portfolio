@@ -25,5 +25,3 @@ Designed with simplicity and clarity in mind for recruiters, interviewers, and f
 - **Git & GitHub** – Version control and hosting
 
 ---
-
-## 📁 Project Structure

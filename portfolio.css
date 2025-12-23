@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    text-align: center;
+}
+
+body h1{
+    padding-top: 30px;
+}
+
+.header{
+    padding-right: 20px;
+    background: linear-gradient(90deg,#6366f1,#ec4899);
+    
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+.hero h1{
+   letter-spacing: 4px; 
+}
+.navs a {
+  color: white !important;
+  font-weight: 500;
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url(../Images/workspace.jpg);
+    background-size: cover ;
+    background-position: center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+
+    position:relative;
+    padding-bottom:120px;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 23, 42, 0.6);
+}
+
+.hero * {
+  position: relative;
+  z-index: 1;
+}
+
+.hero button{
+    background: linear-gradient(90deg,#ec4899,#22d3ee);
+    background-color: #ec4899;
+    color: rgb(251, 244, 244);
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    text-align: center;
+    border:1px solid black;
+    border: none;
+
+}
+.hbtn {
+    display: flex;        
+    gap: 16px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.hero button:hover{
+    color:black;
+}
+
+#aboutme {
+    margin-top: -100px;   
+    position: relative;
+    z-index: 10;          
+    background-color: #f8fafc;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+  
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    flex-wrap:wrap;
+    padding: 40px;
+    
+}
+
+.left img{
+    max-width: 280px;
+    width: 100%;
+    height:auto;
+    border-radius:0 0 50% 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.left img:hover{
+    transform: scale(0.9);
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: large; 
+}
+
+.right h2{
+    color: #6366f1;
+}
+
+.skills{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.skills img{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.my_card{
+    flex: 1 1 250px;
+    max-width: 280px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+.my_card:hover {
+  transform: translateY(-8px) scale(1.03);
+}
+
+
+#footer{
+    font-size: xx-large;
+    letter-spacing: 10px;
+    padding: 30px;
+    background: #0f172a;
+    justify-content: center;
+    gap: 24px;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+#footer .fa-linkedin {
+    color: #0a66c2; 
+}
+
+#footer .fa-github { 
+    color: #6b7280; 
+}
+
+#footer .fa-instagram { 
+    color: #e1306c; 
+}
+
+#footer .fa-facebook { 
+    color: #1877f2;
+}
+
+#footer i {
+    transition: all 0.3s ease;
+}
+
+#footer a:hover i{
+    transform: scale(1.15) translateY(-3px);
+    color:  #22d3ee;
+}
+
+.line {
+  display: block;
+  width: 20%;
+  height: 4px;
+  margin: 10px auto;
+  background: linear-gradient(to right, #6366f1, #ec4899);
+}
+
+.section-divider {
+  width: 70%;
+  height: 1px;
+  margin: 60px auto;
+
+  background: linear-gradient(
+    to right,
+    transparent,
+    #6366f1,
+    #ec4899,
+    transparent
+  );
+}
+
+#aboutme,#skills,#contact{
+    scroll-margin-top: 80px;
+}

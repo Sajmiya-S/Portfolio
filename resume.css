@@ -6,8 +6,6 @@
 
 
 .head{
-    /* min-height: 120px; */
-    /* height: auto; */
     display:flex;
     align-items: center;
     gap: 10px;
@@ -195,3 +193,4 @@ h1{
         word-break: break-word;
     }
 }
+
